@@ -8,7 +8,7 @@ Current Tags: **v3.2.3** (stable)
 #### Via Docker Run
 
 ```sh
-docker run --rm -it -v "$(pwd)":/src -w /src "pam79/phpcs --version
+$ docker run --rm -it -v "$(pwd)":/src -w /src "pam79/phpcs --version
 ```
 
 #### Via a Wrapper Script
