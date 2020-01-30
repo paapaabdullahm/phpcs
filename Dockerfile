@@ -19,4 +19,5 @@ RUN chmod 744 ./expect-install-pear.sh; \
 WORKDIR /src
 VOLUME /src
 
+ENTRYPOINT ["/usr/local/bin/phpcs"]
 CMD ["phpcs"]
